@@ -1,7 +1,12 @@
 import React from 'react';
+import PostList from './PostList';
 
 const App = () => {
-  return <div>My app</div>;
+  return (
+    <div>
+      <PostList />
+    </div>
+  );
 };
 
 export default App;
