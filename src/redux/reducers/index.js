@@ -1,3 +1,3 @@
 import { combineReducers } from 'redux';
-
-export default combineReducers({ dummyFunctions: () => 'DUMMY' });
+import postsReducer from './postsReducer';
+export default combineReducers({ postsReducer: postsReducer });
