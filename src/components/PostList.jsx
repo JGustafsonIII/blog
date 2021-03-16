@@ -7,7 +7,7 @@ const PostList = ({ fetchPosts }) => {
     fetchPosts();
   });
 
-  return <div>Ayo</div>;
+  return <div>Posts List</div>;
 };
 
 export default connect(null, { fetchPosts })(PostList);
